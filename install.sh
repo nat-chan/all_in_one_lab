@@ -29,3 +29,9 @@ cd -; rm -rf jupyterlab-vim
 jupyter labextension install @jupyter-widgets/jupyterlab-manager ipycanvas
 # https://anaconda.org/conda-forge/ipycanvas
 conda install -c conda-forge ipycanvas
+
+# https://github.com/mwouts/jupytext#jupytext-commands-in-jupyterlab
+conda install -c conda-forge jupytext=1.4.2
+
+# update all extension
+jupyter labextension update --all
