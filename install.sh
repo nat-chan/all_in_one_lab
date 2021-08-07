@@ -30,8 +30,18 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager ipycanvas
 # https://anaconda.org/conda-forge/ipycanvas
 conda install -c conda-forge ipycanvas
 
-# https://github.com/oschuett/appmode#installation
+
 conda install -c conda-forge appmode
 
 # update all extension
 jupyter labextension update --all
+
+## new lab3
+exit
+conda install -y -c conda-forge jupyterlab=3
+conda install -y -c conda-forge ipycanvas
+conda install -y -c conda-forge appmode # https://github.com/oschuett/appmode#installation
+conda install -y -c conda-forge jupyterlab-lsp
+pip install git+https://github.com/cliffwoolley/jupyter_tensorboard.git
+pip install git+https://github.com/chaoleili/jupyterlab_tensorboard.git
+pip install jupyterlab_vim
