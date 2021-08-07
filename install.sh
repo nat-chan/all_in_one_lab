@@ -38,10 +38,9 @@ jupyter labextension update --all
 
 ## new lab3
 exit
-conda install -y -c conda-forge jupyterlab=3
-conda install -y -c conda-forge ipycanvas
-conda install -y -c conda-forge appmode # https://github.com/oschuett/appmode#installation
-conda install -y -c conda-forge jupyterlab-lsp
+conda install -y -c conda-forge jupyterlab=3 ipycanvas appmode jupyterlab-lsp
 pip install git+https://github.com/cliffwoolley/jupyter_tensorboard.git
+conda install -y -c conda-forge 'nodejs>=12.0.0' 
 pip install git+https://github.com/chaoleili/jupyterlab_tensorboard.git
 pip install jupyterlab_vim
+pip install ipyfilechooser
