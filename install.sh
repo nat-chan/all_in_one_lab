@@ -44,3 +44,4 @@ conda install -y -c conda-forge 'nodejs>=12.0.0'
 pip install git+https://github.com/chaoleili/jupyterlab_tensorboard.git
 pip install jupyterlab_vim
 pip install ipyfilechooser
+pip install jupyterlab_widgets
