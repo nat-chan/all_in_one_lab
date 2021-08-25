@@ -45,3 +45,4 @@ pip install git+https://github.com/chaoleili/jupyterlab_tensorboard.git
 pip install jupyterlab_vim
 pip install ipyfilechooser
 pip install jupyterlab_widgets
+jupyter labextension install jupyterlab-plotly
