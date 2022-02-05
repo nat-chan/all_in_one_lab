@@ -19,3 +19,4 @@ pip install jupyterlab-vimrc #  C-, -> vimrcに {"unnamedplus": true}
 pip install ipyfilechooser
 pip install jupyterlab_widgets
 jupyter labextension install jupyterlab-plotly
+jupyter labextension install ipycanvas
